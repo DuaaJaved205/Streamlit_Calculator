@@ -34,10 +34,3 @@ if st.button('Calculate'):
         elif operator == '/':
             div(num1,num2)
 
-
-
-option = st.radio('Do you want to quit the calculator' , ['Yes' , 'No'])
-if option == 'Yes':
-    st.write('Goodbye')
-else:
-    st.write('Continue using the calculator')
