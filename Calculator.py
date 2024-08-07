@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 from add import add
 from subtract import sub
@@ -31,6 +29,6 @@ if st.button('Calculate'):
             result = mul(num1,num2)
             st.success(f'Result: {result}')
 
-        elif operator == '/':
+        else:
             div(num1,num2)
 
